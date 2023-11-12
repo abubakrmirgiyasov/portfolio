@@ -1,0 +1,50 @@
+[
+  {
+    "name": "eShop-mint",
+    "images": ["mint-1.png", "mint-2.png"],
+    "description": "web api + react ts + mssql + redis + rabbitmq + figma.",
+    "frameworks": ["react", "react", "react", "react"],
+    "github": "https://github.com/",
+    "category": 2
+  },
+  {
+    "name": "eShop-mint",
+    "images": ["mint-1.png", "mint-2.png"],
+    "description": "web api + react ts + mssql + redis + rabbitmq",
+    "frameworks": ["react", "react", "react", "react"],
+    "github": "https://github.com/",
+    "category": 2
+  },
+  {
+    "name": "eShop-mint",
+    "images": ["mint-1.png", "mint-2.png"],
+    "description": "web api + react ts + mssql + redis + rabbitmq",
+    "frameworks": ["react", "react", "react", "react"],
+    "github": "https://github.com/",
+    "category": 2
+  },
+  {
+    "name": "eShop-mint",
+    "images": ["mint-1.png", "mint-2.png"],
+    "description": "web api + react ts + mssql + redis + rabbitmq",
+    "frameworks": ["react", "react", "react", "react"],
+    "github": "https://github.com/",
+    "category": 2
+  },
+  {
+    "name": "eShop-mint",
+    "images": ["mint-1.png", "mint-2.png"],
+    "description": "web api + react ts + mssql + redis + rabbitmq",
+    "frameworks": ["react", "react", "react", "react"],
+    "github": "https://github.com/",
+    "category": 2
+  },
+  {
+    "name": "eShop-mint",
+    "images": ["mint-1.png", "mint-2.png"],
+    "description": "web api + react ts + mssql + redis + rabbitmq",
+    "frameworks": ["react", "react", "react", "react"],
+    "github": "https://github.com/",
+    "category": 2
+  }
+]

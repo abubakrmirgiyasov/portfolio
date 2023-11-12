@@ -1,0 +1,20 @@
+[
+  { "name": "JavaScript" },
+  { "name": "TypeScript" },
+  { "name": "HTML" },
+  { "name": "CSS" },
+  { "name": "React" },
+  { "name": "Redux" },
+  { "name": "NodeJS" },
+  { "name": "Express" },
+  { "name": "Redis" },
+  { "name": "RabbitMQ" },
+  { "name": "Postgres" },
+  { "name": "MongoDB" },
+  { "name": "GitHub" },
+  { "name": "MSSQL" },
+  { "name": "FastAPI" },
+  { "name": "Bootstrap" },
+  { "name": "Figma" },
+  { "name": "Tailwind" }
+]

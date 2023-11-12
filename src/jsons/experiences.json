@@ -1,0 +1,18 @@
+[
+  {
+    "companyName": "ООО ФАЗА",
+    "position": "Software Engineer",
+    "yearOfWork": "2021-2023",
+    "city": "Novokuznetsk",
+    "description": "I help build and scale Google Photos. Increased throughput of our primary services by 70%. Migrated backend service from Java to Go. Also helped make it look prettier.",
+    "stack": ["C#", "Windows Forms", "WPF", "PostgreSQL", "EF Core", "Git", "GitLab", "TCP/IP", "Modbus"]
+  },
+  {
+    "companyName": "Freelance",
+    "position": "Software Engineer",
+    "yearOfWork": "2021-Present",
+    "city": "-",
+    "description": "I help build and scale Google Photos. Increased throughput of our primary services by 70%. Migrated backend service from Java to Go. Also helped make it look prettier.",
+    "stack": ["C#", "Windows Forms", "WPF", "ASP NET", "React", "TypeScript", "JavaScript", "PostgreSQL", "MSSQL", "MongoDB", "EF Core", "Git", "Github", "Rest API", "RabbitMQ/Kafka"]
+  }
+]

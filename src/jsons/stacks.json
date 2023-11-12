@@ -1,0 +1,54 @@
+{
+  "frontend": [
+    {
+      "name": "HTML",
+      "level": "Advanced"
+    },
+    {
+      "name": "CSS/SCSS",
+      "level": "Advanced"
+    },
+    {
+      "name": "JavaScript",
+      "level": "Advanced"
+    },
+    {
+      "name": "TypeScript",
+      "level": "Advanced"
+    },
+    {
+      "name": "React",
+      "level": "Advanced"
+    },
+    {
+      "name": "Git",
+      "level": "Advanced"
+    }
+  ],
+  "backend": [
+    {
+      "name": "C#",
+      "level": "Advanced"
+    },
+    {
+      "name": "Node JS",
+      "level": "Intermediate"
+    },
+    {
+      "name": "MSSQL/Mongo DB",
+      "level": "Intermediate"
+    },
+    {
+      "name": "Docker",
+      "level": "Intermediate"
+    },
+    {
+      "name": "Redis",
+      "level": "Intermediate"
+    },
+    {
+      "name": "RabbitMQ",
+      "level": "Intermediate"
+    }
+  ]
+}

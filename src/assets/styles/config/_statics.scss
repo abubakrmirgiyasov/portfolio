@@ -1,0 +1,78 @@
+$prefix: pt;
+
+$font-family-primary: "Exo 2", sans-serif;
+$font-family-secondary: "Nosifer", sans-serif;
+
+$black: #000;
+$white: #FFF;
+$primary: #2C3333;
+$info: #404258;
+$light: #E9E9E9;
+$light-secondary: #a395e91f;
+$light-secondary-alpha: #a395ef63;
+$secondary-black: #828282;
+$secondary-white: #E5E5E5;
+$success: #0ACF83;
+$success-secondary: #1AACAC;
+$white-alpha: rgba(255, 255, 255, 0.3);
+$primary-alpha: rgba(44, 51, 51, 0.3);
+
+$header1: 34px;
+$header2: 28px;
+$header3: 22px;
+$header4: 18px;
+$header5: 14px;
+
+:root {
+  --#{$prefix}-text-color: #{$black};
+  --#{$prefix}-text-color-secondary: #{$secondary-black};
+  --#{$prefix}-text-color-success: #{$success};
+  --#{$prefix}-text-color-light: #{$light};
+  --#{$prefix}-bg-color: #{$black};
+  --#{$prefix}-bg-color-secondary: #{$secondary-black};
+  --#{$prefix}-bg-color-primary: #{$primary};
+  --#{$prefix}-bg-color-info: #{$info};
+  --#{$prefix}-bg-color-light: #{$light};
+  --#{$prefix}-bg-color-light-secondary: #{$light-secondary};
+  --#{$prefix}-bg-color-light-secondary-alpha: #{$light-secondary-alpha};
+  --#{$prefix}-bg-color-success: #{$success};
+  --#{$prefix}-bg-color-success-secondary: #{$success-secondary};
+  --#{$prefix}-bg-color-white-alpha: #{$white-alpha};
+  --#{$prefix}-font-family-primary: #{$font-family-primary};
+  --#{$prefix}-font-family-secondary: #{$font-family-secondary};
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: var(--pt-text-color);
+}
+
+.btn {
+  outline: none;
+  border: none;
+  text-align: center;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.btn-main {
+  background-color: var(--pt-bg-color-success);
+  color: white;
+  width: 175px;
+  height: 45px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-family: var(--pt-font-family-secondary);
+  font-weight: 600;
+  box-shadow: inset 0 0 0 0 var(--pt-bg-color-success-secondary);
+  transition: ease-out 0.4s;
+  &:hover {
+    box-shadow: inset 175px 0 0 0 var(--pt-bg-color-success-secondary);
+  }
+}

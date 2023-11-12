@@ -1,0 +1,73 @@
+[data-layout-mode="dark"] {
+  --#{$prefix}-text-color: #{$white};
+  --#{$prefix}-text-color-secondary: #{$secondary-white};
+  --#{$prefix}-bg-color: #{$primary};
+  --#{$prefix}-bg-color-secondary: #{$secondary-white};
+  --#{$prefix}-bg-color-info: #{$info};
+  --#{$prefix}-bg-color-primary-alpha: #{$primary-alpha};
+
+  @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+    .header {
+      -webkit-backdrop-filter: blur(10px);
+      backdrop-filter: blur(10px);
+      background-color: var(--pt-bg-color-primary-alpha);
+    }
+  }
+
+  body {
+    background-color: var(--pt-bg-color);
+  }
+
+  .header::after {
+    background-color: var(--pt-bg-color-secondary);
+  }
+
+  .nav-ul {
+    .li-item {
+      &:hover {
+        color: var(--pt-text-color-success) !important;
+
+      }
+      &::after {
+        background-color: var(--pt-text-color-success) !important;
+      }
+    }
+    .active {
+      color: var(--pt-text-color-success) !important;
+    }
+  }
+
+  .lang-switcher {
+    .lang-text {
+      .active {
+        color: var(--pt-text-color-success) !important;
+      }
+      :hover {
+        color: var(--pt-text-color-success) !important;
+      }
+    }
+  }
+}
+
+.skills-frontend,
+.skills-backend {
+  background-color: var(--pt-bg-color-info) !important;
+  color: var(--pt-text-color);
+}
+
+.info-card {
+  background-color: var(--pt-bg-color-info) !important;
+}
+
+.form-label,
+.form-input {
+  background-color: var(--pt-bg-color-info) !important;
+  color: var(--pt-text-color) !important;
+}
+
+.experience-item,
+.skills-frontend,
+.skills-backend,
+.info-card {
+  box-shadow: 1px 1px 1px 1px var(--pt-bg-color-info) !important;
+}

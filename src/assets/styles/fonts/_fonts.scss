@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "Exo 2";
+  src: url("/src/assets/fonts/Exo2-Bold.ttf");
+  src: local("Exo 2"), url("/src/assets/fonts/Exo2-Bold.ttf") format("ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Exo 2";
+  src: url("/src/assets/fonts/Exo2-Regular.ttf");
+  src: local("Exo 2"), url("/src/assets/fonts/Exo2-Regular.ttf") format("ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Exo 2 Light";
+  src: url("/src/assets/fonts/Exo2-Light.ttf");
+  src: local("Exo 2 Light"), url("/src/assets/fonts/Exo2-Light.ttf") format("ttf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Nosifer";
+  src: url("/src/assets/fonts/Nosifer-Regular.ttf");
+  src: local("Nosifer"), url("/src/assets/fonts/Nosifer-Regular.ttf") format("ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Unbounded";
+  src: url("/src/assets/fonts/Unbounded-Regular.ttf");
+  src: local("Unbounded"), url("/src/assets/fonts/Nosifer-Regular.ttf") format("ttf");
+  font-weight: 500;
+}

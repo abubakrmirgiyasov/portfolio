@@ -1,0 +1,173 @@
+@media (max-width: 1280px) {
+  .header {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 900px) {
+  .about-description {
+    grid-template-columns: 1fr !important;
+  }
+
+  .projects-list {
+    flex: 0 0 50%;
+  }
+
+  .skills-card {
+    grid-template-columns: repeat(1, 510px) !important;
+    row-gap: 1rem;
+  }
+
+  .contact-me-container {
+    grid-template-columns: repeat(1, 430px) !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    padding: 0 !important;
+    .header-foo {
+      display: none;
+    }
+  }
+
+  .hamburger-menu {
+    position: relative;
+    justify-content: space-between;
+    align-items: start;
+    margin: 10px;
+    .logo-menu {
+      font-size: 27px;
+      font-weight: 600;
+      font-family: var(--pt-font-family-secondary);
+      color: var(--pt-text-color);
+      .logo-foo {
+        font-size: 0.75rem;
+        font-weight: 400;
+        margin-top: 10px;
+      }
+    }
+    .hamburger {
+      cursor: pointer;
+      width: 50px;
+      height: 30px;
+      span {
+        position:relative;
+        display: block;
+        background-color: var(--pt-bg-color-secondary);
+        height: 3px;
+        width: 100%;
+        margin: 5px 0;
+        border-radius: 10px;
+        &:nth-child(1){
+          transition-delay: 0.5s;
+        }
+        &:nth-child(2){
+          transition-delay: 0.625s;
+        }
+        &:nth-child(3){
+          transition-delay: 0.75s;
+        }
+      }
+    }
+    .cross {
+      position:absolute;
+      height: 100%;
+      width: 100%;
+      transform: rotate(45deg);
+      span{
+        display: block;
+        &:nth-child(1) {
+          position: absolute;
+          height: 0;
+          width: 4px;
+          top: 10%;
+          left: 48px;
+          transition-delay: 0s;
+        }
+        &:nth-child(2){
+          width: 0;
+          height: 4px;
+          position: absolute;
+          left: 10%;
+          top: 48px;
+          transition-delay: .25s;
+        }
+      }
+    }
+  }
+
+  .hamburger.open {
+    span {
+      width: 0;
+      &:nth-child(1) {
+        transition-delay: 0s;
+      }
+      &:nth-child(2) {
+        transition-delay: 0.125s;
+      }
+      &:nth-child(3) {
+        transition-delay: 0.25s;
+      }
+    }
+  }
+
+  .cross {
+    span {
+      &:nth-child(1) {
+        height: 80%;
+        transition-delay: 0.625s;
+      }
+    }
+    span {
+      &:nth-child(2){
+        width: 80%;
+        transition-delay: 0.375s;
+      }
+    }
+  }
+
+  .ca-item {
+    padding: 10px 30px !important;
+  }
+
+  .use-at-work {
+    display: block !important;
+  }
+
+  .content-pic {
+    background-image: url("./src/assets/images/me-mobile.png") !important;
+    background-position: top center !important;
+    height: 550px !important;
+  }
+
+  .content-info {
+    grid-template-columns: 350px !important;
+    justify-content: center !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .skills-card {
+    font-size: 14px;
+    grid-template-columns: repeat(1, 350px) !important;
+  }
+
+  .skills-frontend, .skills-backend {
+    padding: 1.5rem !important;
+  }
+
+  .contact-me-content {
+    max-width: 350px;
+    width: 100%;
+    margin: auto;
+  }
+}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  .header {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: var(--pt-bg-color-white-alpha);
+  }
+}
